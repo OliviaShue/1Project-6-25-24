@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="quiz-container">
+  <h1>Math Quiz</h1>
+        
+<div class="question-container" id="q1">
+  <h2>Queation 1: 1+1</h2>
+    <button class="answer-button" onclick="checkAnswer('q1', 'a')">A. 1</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q1', 'b')">B. 2</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q1', 'c')">C. 3</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q1', 'd')">D. 4</button></div>
+
+<div class="question-container" id="q2">
+  <h2>Queation 2: 2+2</h2>
+    <button class="answer-button" onclick="checkAnswer('q2', 'a')">A. 5</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q2', 'b')">B. 4</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q2', 'c')">C. 3</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q2', 'd')">D. 2</button></div>
+
+<div class="question-container" id="q3">
+  <h2>Queation 3: 3+3</h2>
+    <button class="answer-button" onclick="checkAnswer('q3', 'a')">A. 4</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q3', 'b')">B. 5</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q3', 'c')">C. 6</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q3', 'd')">D. 7</button></div>
+  
+<div class="question-container" id="q4">
+  <h2>Queation 4: 4+4</h2>
+    <button class="answer-button" onclick="checkAnswer('q4', 'a')">A. 11</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q4', 'b')">B. 10</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q4', 'c')">C. 9</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q4', 'd')">D. 8</button></div>
+  <div class="question-container" id="q5">
+  <h2>Queation 5: 5+5</h2>
+    <button class="answer-button" onclick="checkAnswer('q5', 'a')">A. 10</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q5', 'b')">B. 11</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q5', 'c')">C. 12</button>
+      <br>
+    <button class="answer-button" onclick="checkAnswer('q5', 'd')">D. 13</button></div>
+  
+<button id="submit" onclick="showResults()">Submit Quiz</button>
+        <div id="results"></div>
+    </div>
+</body>
+</html>
